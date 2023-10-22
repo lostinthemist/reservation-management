@@ -1,38 +1,352 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
+  width: 100%;
+  height: 100vh;
+}
+
+.App-nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 10px 25px;
+}
+
+.App-nav-h1 {
+  color: #716e69;
+  font-size: 26px;
+  font-weight: bold;
+  position: relative;
+}
+
+.App-nav-reservationCounter {
+  background-color: #ec551f;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 15px;
+  position: absolute;
+  top: -2px;
+}
+
+.addBtn {
+  color: #ec551f;
+  background-color: #fafafa;
+  font-size: 18px;
+  width: auto;
+  height: 50px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0px 0px 10px 4px #d8d8d8;
+}
+
+.selectDateTimeBtn {
+  background-color: #fafafa;
+  font-size: 18px;
+  width: 300px;
+  height: 50px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0px 0px 10px 4px #d8d8d8;
+  border: none;
+}
+
+.App-reservation-ul {
+  width: 100%;
+}
+
+.App-reservation-li {
+  padding: 20px 10px;
+  list-style: none;
+}
+
+.App-reservation-li a {
+  text-decoration: none;
+}
+
+.App-reservation-li-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 380px;
+  height: auto;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0px 0px 10px 4px #d8d8d8;
+}
+
+.App-reservation-li-content p {
+  color: #292524;
+  line-height: 20px;
+}
+
+.App-reservation-phone {
+  background-color: #f7f7f6;
+  color: #aea9a5;
+  display: flex;
+  align-items: center;
+  padding: 5px 12px 5px 12px;
+  height: 34px;
+  border-radius: 20px;
+  box-shadow: 0px 1px 4px 2px #d8d8d8;
+  white-space: nowrap;
+}
+
+.btn-confirm {
+  background-color: #ec551f !important;
+  color: #fafafa !important;
+  width: 100%;
+  height: 50px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-remove,
+.btn-count {
+  background-color: #fff !important;
+  width: 60px;
+  height: 50px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px 4px #d8d8d8;
+}
+
+.guestCountInput {
+  background-color: inherit;
+  border: none;
+  cursor: default;
+  width: 65px;
+  text-align: center;
+  padding-left: 15px;
+  font-size: 28px;
+}
+
+.guestCountInput:focus,
+.guestCountInput:focus-visible {
+  outline: none;
+}
+
+.text-inputField,
+.form-control {
+  background-color: transparent;
+  height: 50px;
+  min-width: 250px !important;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  outline: none;
+  border: 1px solid #e5e3e2;
+  border-radius: 5px;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.form-control:focus+label,
+.label-active {
+  top: -17px !important;
+}
+
+textarea.form-control {
+  min-height: 150px;
+}
+
+.form-floating label span {
+  color: red;
+}
+
+textarea {
+  box-shadow: 0px 1px 4px 2px #d8d8d8;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 15px;
+}
+
+.guest-select {
+  width: 100%;
+}
+
+.select__multi-value {
+  border-radius: 18px !important;
+  padding: 4px 6px;
+  background-color: #f5f5f4 !important;
+}
+
+.select__control {
+  border: 1px solid #e5e3e2 !important;
+  box-shadow: none !important;
+  height: 50px;
+}
+
+.select__multi-value__remove {
+  border-radius: 15px !important;
+  background-color: #d6d3d1;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select__multi-value__remove>svg {
+  fill: #fff !important;
+  width: 24px !important;
+  height: 24px !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.select__multi-value__remove:hover {
+  background-color: #b6b4b2 !important;
+}
+
+/* #d6d3d1 */
+
+.select__indicator.select__clear-indicator,
+.select__indicator-separator {
+  display: none !important;
+}
+
+.react-datetime-picker {
+  width: 100%;
+}
+
+.datetime-picker .react-datetime-picker__wrapper {
+  background-color: transparent;
+  height: 50px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  outline: none;
+  border: 1px solid #e5e3e2;
+  border-radius: 5px;
+}
+
+.datetime-picker .react-datetime-picker.react-datetime-picker--open .react-datetime-picker__wrapper {
+  outline: none !important;
+  border: 1px solid #ec551f;
+}
+
+.time-picker-incremental .react-datetime-picker__wrapper {
+  text-align: center;
+  border: none;
+}
+
+.time-picker-incremental .react-datetime-picker__inputGroup__input {
+  width: 30px !important;
+  font-size: 28px;
+  margin: 0 5px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.time-picker-incremental .react-datetime-picker__inputGroup__input::selection,
+.datetime-picker .react-datetime-picker__inputGroup__input::selection {
+  background-color: transparent;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.time-picker-incremental .react-datetime-picker__inputGroup__divider {
+  font-size: 25px;
+}
+
+.react-datetime-picker__inputGroup__input:focus-visible {
+  outline: none !important;
+}
+
+.time-picker-incremental .react-datetime-picker__inputGroup__input.react-datetime-picker__inputGroup__amPm {
+  width: 65px !important;
+}
+
+.time-picker-incremental .react-datetime-picker__inputGroup__amPm {
+  appearance: none;
+}
+
+.hour-addRemove,
+.minute-addRemove {
+  width: 33px;
+  height: 30px;
+  background-color: #fff;
+  border: none;
+}
+
+.AMPM-addRemove {
+  width: 62px;
+  height: 30px;
+  background-color: #fff;
+  border: none;
+  margin-left: 17px;
+}
+
+.minute-addRemove {
+  margin-left: 14px;
+}
+
+.react-datetime-picker__inputGroup__leadingZero {
+  display: none !important;
+}
+
+.select-div {
+  width: 50%;
+}
+
+.date-btn-div {
+  width: 25%;
+}
+
+@media screen and (max-width: 991px) {
+  .form-floating {
+    margin-bottom: 15px;
+  }
+  .date-btn-div {
+    width: 50%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 768px) {
+  .App-reservation-li-content {
+    min-height: unset;
   }
-  to {
-    transform: rotate(360deg);
+  .App-reservation-li-content div:last-child {
+    margin-top: 20px !important;
+  }
+  .select-div {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .App-nav {
+    flex-wrap: wrap;
+    height: auto;
+    gap: 12px;
+  }
+
+  .App-nav-h1 {
+    margin: 0 30px;
+  }
+
+  .form-floating {
+    width: 100%;
+  }
+
+  .selectDateTimeBtn {
+    width: 100%;
+  }
+  .date-btn-div {
+    width: 100%;
   }
 }
