@@ -234,7 +234,6 @@ const AddReservation = () => {
                                 backgroundColor: 'rgba(0, 0, 0, 0.4)'
                             },
                             content: {
-                                width: '400px',
                                 margin: 'auto',
                                 padding: '20px',
                                 height: '400px'
