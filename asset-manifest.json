@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/reservation-management/static/css/main.5e10852c.css",
-    "main.js": "/reservation-management/static/js/main.9834ea75.js",
+    "main.js": "/reservation-management/static/js/main.8cc63165.js",
     "static/js/787.340800b7.chunk.js": "/reservation-management/static/js/787.340800b7.chunk.js",
-    "static/media/alarm_on.svg": "/reservation-management/static/media/alarm_on.8686370751a87cee0db6646e44893e6d.svg",
-    "static/media/group.svg": "/reservation-management/static/media/group.94d31edae76384a6739a3e5cf210493b.svg",
-    "static/media/today.svg": "/reservation-management/static/media/today.4e5881d18d6d4ed0f837cb0d55b6dd37.svg",
-    "static/media/trash.svg": "/reservation-management/static/media/trash.c8a90a12f9b2a03cc70e68ba05d463b8.svg",
-    "static/media/event_available.svg": "/reservation-management/static/media/event_available.919547d483efbd8fa9ad92455af3620e.svg",
+    "static/media/alarm_on.svg": "/reservation-management/static/media/alarm_on.3a0e2cedf602c0c3c0a9524b1033eb2f.svg",
+    "static/media/group.svg": "/reservation-management/static/media/group.4e9d953e4afbfbe9714ca205082408b4.svg",
+    "static/media/today.svg": "/reservation-management/static/media/today.208c6198ce0daafa833c9d64c79b01a4.svg",
+    "static/media/trash.svg": "/reservation-management/static/media/trash.6533e5af745e91f7ed3496f9cd9a9c5a.svg",
+    "static/media/event_available.svg": "/reservation-management/static/media/event_available.8f09f34d1a676b8bd316a139ad529b0d.svg",
     "index.html": "/reservation-management/index.html",
-    "static/media/phone.svg": "/reservation-management/static/media/phone.f425398cadc4a29962d76f221d7cf5cb.svg",
-    "static/media/close.svg": "/reservation-management/static/media/close.64743847d7a3196180a114c89bcf1843.svg",
-    "static/media/keyboard_backspace.svg": "/reservation-management/static/media/keyboard_backspace.47e29e314498c8758741d47d377863a3.svg",
-    "static/media/math-plus.svg": "/reservation-management/static/media/math-plus.1eb8ca9cf83fe9eb8f77a0abef9cf463.svg",
-    "static/media/edit.svg": "/reservation-management/static/media/edit.9883c1056fc4c6d27f58b981c12ca33e.svg",
-    "static/media/add.svg": "/reservation-management/static/media/add.d20dc29af83dd8ee5cc6821d7c96b5b0.svg",
-    "static/media/math-minus.svg": "/reservation-management/static/media/math-minus.192c6d36e4d3914085fe02a4f30ac00b.svg",
-    "static/media/chevron-down.svg": "/reservation-management/static/media/chevron-down.db4f473041b1c0620e5a763c0b38cfb4.svg",
-    "static/media/chevron-up.svg": "/reservation-management/static/media/chevron-up.82d1dcb44e51a62a680f8edbab2aa394.svg",
+    "static/media/phone.svg": "/reservation-management/static/media/phone.a3c34c7d6413aafa65f5038bdcb96bad.svg",
+    "static/media/close.svg": "/reservation-management/static/media/close.fb7e44f614bb10eb089642657faf11d8.svg",
+    "static/media/keyboard_backspace.svg": "/reservation-management/static/media/keyboard_backspace.3e1cae0fce66c032d9b40550274fc1fb.svg",
+    "static/media/math-plus.svg": "/reservation-management/static/media/math-plus.fc7216b92d56bbf51cf48b7d89534de4.svg",
+    "static/media/edit.svg": "/reservation-management/static/media/edit.432873db3d6b8eeb5e3ac56497c73d3b.svg",
+    "static/media/add.svg": "/reservation-management/static/media/add.f21da1ffab03ed0d0d8b19587aaa3ea2.svg",
+    "static/media/math-minus.svg": "/reservation-management/static/media/math-minus.b9471768c9df46df995bab11aea8f2a1.svg",
+    "static/media/chevron-down.svg": "/reservation-management/static/media/chevron-down.78d3da643572c278ff43fc2061928550.svg",
+    "static/media/chevron-up.svg": "/reservation-management/static/media/chevron-up.f6e7710a68f48f3d37682f0030d174bd.svg",
     "main.5e10852c.css.map": "/reservation-management/static/css/main.5e10852c.css.map",
-    "main.9834ea75.js.map": "/reservation-management/static/js/main.9834ea75.js.map",
+    "main.8cc63165.js.map": "/reservation-management/static/js/main.8cc63165.js.map",
     "787.340800b7.chunk.js.map": "/reservation-management/static/js/787.340800b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e10852c.css",
-    "static/js/main.9834ea75.js"
+    "static/js/main.8cc63165.js"
   ]
 }
