@@ -15,7 +15,7 @@ function App() {
             <Route index element={<Dashboard />} />
             <Route path="addReservation" element={<AddReservation />} />
             <Route path="editReservation/:id" element={<EditReservation />} />
-            <Route path="*" element={<NoPage />} />
+            <Route path="*" element={<Dashboard />} />
           </Routes>
         </ReservationProvider>
       </BrowserRouter>
