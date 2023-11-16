@@ -222,7 +222,7 @@ const EditReservation = () => {
     return (
         <AddReservationWrapper>
             <nav className="App-nav">
-                <button className="btn btn-remove" onClick={handleEdit}><BackIcon className="svg-icon" width={30} height={30} /></button>
+                <button className="btn btn-remove fw-bold" onClick={handleEdit}><BackIcon className="svg-icon me-2" width={30} height={30} />Save</button>
                 <h1 className="App-nav-h1">Edit Reservation</h1>
                 <Link to="/"><CloseIcon className="svg-icon" width={26} height={26} /></Link>
             </nav>
