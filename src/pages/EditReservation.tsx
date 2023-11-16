@@ -282,7 +282,8 @@ const EditReservation = () => {
                                 content: {
                                     margin: 'auto',
                                     padding: '20px',
-                                    height: '400px'
+                                    height: '400px',
+                                    maxWidth: '400px'
                                 }
                             }}
                         >
