@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reservation-management/static/css/main.5e10852c.css",
-    "main.js": "/reservation-management/static/js/main.a178fbd7.js",
+    "main.css": "/reservation-management/static/css/main.d8a66dfd.css",
+    "main.js": "/reservation-management/static/js/main.3b6bd76d.js",
     "static/js/787.340800b7.chunk.js": "/reservation-management/static/js/787.340800b7.chunk.js",
     "static/media/alarm_on.svg": "/reservation-management/static/media/alarm_on.3a0e2cedf602c0c3c0a9524b1033eb2f.svg",
     "static/media/group.svg": "/reservation-management/static/media/group.4e9d953e4afbfbe9714ca205082408b4.svg",
@@ -18,12 +18,12 @@
     "static/media/math-minus.svg": "/reservation-management/static/media/math-minus.b9471768c9df46df995bab11aea8f2a1.svg",
     "static/media/chevron-down.svg": "/reservation-management/static/media/chevron-down.78d3da643572c278ff43fc2061928550.svg",
     "static/media/chevron-up.svg": "/reservation-management/static/media/chevron-up.f6e7710a68f48f3d37682f0030d174bd.svg",
-    "main.5e10852c.css.map": "/reservation-management/static/css/main.5e10852c.css.map",
-    "main.a178fbd7.js.map": "/reservation-management/static/js/main.a178fbd7.js.map",
+    "main.d8a66dfd.css.map": "/reservation-management/static/css/main.d8a66dfd.css.map",
+    "main.3b6bd76d.js.map": "/reservation-management/static/js/main.3b6bd76d.js.map",
     "787.340800b7.chunk.js.map": "/reservation-management/static/js/787.340800b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e10852c.css",
-    "static/js/main.a178fbd7.js"
+    "static/css/main.d8a66dfd.css",
+    "static/js/main.3b6bd76d.js"
   ]
 }
